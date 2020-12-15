@@ -20,6 +20,8 @@
 		D752F1D5257CF29A00B4EDDD /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752F1D4257CF29A00B4EDDD /* TrackCell.swift */; };
 		D75562FE256C02B200183914 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75562FD256C02B200183914 /* SearchViewController.storyboard */; };
 		D7556307256C092C00183914 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7556306256C092C00183914 /* UIViewController + Storyboard.swift */; };
+		D75A7FAE2588EC23008FF185 /* CMTime + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A7FAD2588EC23008FF185 /* CMTime + Extention.swift */; };
+		D75A7FB12588FAD6008FF185 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A7FB02588FAD6008FF185 /* Nib.swift */; };
 		D766CD61257FAB540030866C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766CD60257FAB540030866C /* FooterView.swift */; };
 		D766CD66257FB3360030866C /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D766CD65257FB3360030866C /* TrackDetailView.xib */; };
 		D766CD69257FB34A0030866C /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766CD68257FB34A0030866C /* TrackDetailView.swift */; };
@@ -48,6 +50,8 @@
 		D752F1D4257CF29A00B4EDDD /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		D75562FD256C02B200183914 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
 		D7556306256C092C00183914 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
+		D75A7FAD2588EC23008FF185 /* CMTime + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extention.swift"; sourceTree = "<group>"; };
+		D75A7FB02588FAD6008FF185 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
 		D766CD60257FAB540030866C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		D766CD65257FB3360030866C /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
 		D766CD68257FB34A0030866C /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				D7556306256C092C00183914 /* UIViewController + Storyboard.swift */,
+				D75A7FAD2588EC23008FF185 /* CMTime + Extention.swift */,
+				D75A7FB02588FAD6008FF185 /* Nib.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -323,11 +329,13 @@
 				D766CD61257FAB540030866C /* FooterView.swift in Sources */,
 				D752F1D5257CF29A00B4EDDD /* TrackCell.swift in Sources */,
 				D785A2BC254070D4005FDBC3 /* MainTabBarController.swift in Sources */,
+				D75A7FB12588FAD6008FF185 /* Nib.swift in Sources */,
 				D706AE322541C63300E083E2 /* SearchWorker.swift in Sources */,
 				D706AE352541C63300E083E2 /* SearchViewController.swift in Sources */,
 				D706AE332541C63300E083E2 /* SearchRouter.swift in Sources */,
 				D706AE342541C63300E083E2 /* SearchModels.swift in Sources */,
 				D7556307256C092C00183914 /* UIViewController + Storyboard.swift in Sources */,
+				D75A7FAE2588EC23008FF185 /* CMTime + Extention.swift in Sources */,
 				D785A2A925406E96005FDBC3 /* SceneDelegate.swift in Sources */,
 				D706AE312541C63300E083E2 /* SearchPresenter.swift in Sources */,
 				D766CD69257FB34A0030866C /* TrackDetailView.swift in Sources */,
