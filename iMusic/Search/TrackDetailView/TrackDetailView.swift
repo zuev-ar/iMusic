@@ -101,8 +101,6 @@ class TrackDetailView: UIView {
     
     @objc private func handelPan(gesture: UIPanGestureRecognizer) {
         switch gesture.state {
-        case .began:
-            handelPanBegan(gesture: gesture)
         case .changed:
             handlePanChanged(gesture: gesture)
         case .ended:
@@ -134,10 +132,6 @@ class TrackDetailView: UIView {
         @unknown default:
             print("unknown default case")
         }
-    }
-    
-    private func handelPanBegan(gesture: UIPanGestureRecognizer) {
-        
     }
     
     private func handlePanChanged(gesture: UIPanGestureRecognizer) {
