@@ -33,6 +33,7 @@
 		D785A2B325406E97005FDBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D785A2B125406E97005FDBC3 /* LaunchScreen.storyboard */; };
 		D785A2BC254070D4005FDBC3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785A2BB254070D4005FDBC3 /* MainTabBarController.swift */; };
 		D785A2BF2540734E005FDBC3 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785A2BE2540734E005FDBC3 /* SearchMusicViewController.swift */; };
+		D789A4D7258CF0A300EA5ADE /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789A4D6258CF0A300EA5ADE /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		D785A2B425406E97005FDBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D785A2BB254070D4005FDBC3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		D785A2BE2540734E005FDBC3 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		D789A4D6258CF0A300EA5ADE /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		E3500AA7016898804C3E4075 /* Pods_iMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,6 +186,7 @@
 				D785A2A825406E96005FDBC3 /* SceneDelegate.swift */,
 				D706AE262541C59D00E083E2 /* Services */,
 				D785A2BB254070D4005FDBC3 /* MainTabBarController.swift */,
+				D789A4D6258CF0A300EA5ADE /* Library.swift */,
 				D706AE162541C4FB00E083E2 /* Search */,
 				D785A2BE2540734E005FDBC3 /* SearchMusicViewController.swift */,
 				D785A2AA25406E96005FDBC3 /* ViewController.swift */,
@@ -338,6 +341,7 @@
 				D75A7FAE2588EC23008FF185 /* CMTime + Extention.swift in Sources */,
 				D785A2A925406E96005FDBC3 /* SceneDelegate.swift in Sources */,
 				D706AE312541C63300E083E2 /* SearchPresenter.swift in Sources */,
+				D789A4D7258CF0A300EA5ADE /* Library.swift in Sources */,
 				D766CD69257FB34A0030866C /* TrackDetailView.swift in Sources */,
 				D706AE122541BEBE00E083E2 /* NetworkService.swift in Sources */,
 			);
