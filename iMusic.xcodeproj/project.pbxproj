@@ -34,6 +34,7 @@
 		D785A2BC254070D4005FDBC3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785A2BB254070D4005FDBC3 /* MainTabBarController.swift */; };
 		D785A2BF2540734E005FDBC3 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D785A2BE2540734E005FDBC3 /* SearchMusicViewController.swift */; };
 		D789A4D7258CF0A300EA5ADE /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789A4D6258CF0A300EA5ADE /* Library.swift */; };
+		D78C2D2125922CA90038A5C3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C2D2025922CA90038A5C3 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		D785A2BB254070D4005FDBC3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		D785A2BE2540734E005FDBC3 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
 		D789A4D6258CF0A300EA5ADE /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		D78C2D2025922CA90038A5C3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		E3500AA7016898804C3E4075 /* Pods_iMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			children = (
 				D752F1D1257CF26F00B4EDDD /* TrackCell.xib */,
 				D752F1D4257CF29A00B4EDDD /* TrackCell.swift */,
+				D78C2D2025922CA90038A5C3 /* UserDefaults.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				D706AE0F2541B6D500E083E2 /* SearchResponse.swift in Sources */,
 				D706AE362541C63300E083E2 /* SearchInteractor.swift in Sources */,
 				D785A2A725406E96005FDBC3 /* AppDelegate.swift in Sources */,
+				D78C2D2125922CA90038A5C3 /* UserDefaults.swift in Sources */,
 				D766CD61257FAB540030866C /* FooterView.swift in Sources */,
 				D752F1D5257CF29A00B4EDDD /* TrackCell.swift in Sources */,
 				D785A2BC254070D4005FDBC3 /* MainTabBarController.swift in Sources */,
